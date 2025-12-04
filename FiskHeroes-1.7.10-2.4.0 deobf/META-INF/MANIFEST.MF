@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+FMLCorePluginContainsFMLMod: true
+FMLAT: fiskheroes_at.cfg
+Maven-Artifact: com.fiskmods.heroes:FiskHeroes-1.7.10:2.4.0
+FMLCorePlugin: com.fiskmods.heroes.asm.SHLoadingPlugin
+Timestamp: 1726764862519
+

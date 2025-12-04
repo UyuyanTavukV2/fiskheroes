@@ -1,0 +1,65 @@
+{
+  "name": "FiskTag",
+  "domain": "fisktag",
+  "packFormat": 1,
+  "sounds": {
+    "download": {
+      "repository": "FiskFille/FiskTag",
+      "version": 0
+    },
+    "range": {
+      "automatic_shoot": 48.0,
+      "automatic_start_loop": { "distance": 24.0, "target": "ALL" },
+      "john_wick": { "target": "ONLY_SELF" },
+      "match_defeat": { "target": "ONLY_SELF" },
+      "match_draw": { "target": "ONLY_SELF" },
+      "match_start": { "target": "ONLY_SELF" },
+      "match_victory": { "target": "ONLY_SELF" },
+      "mortar_shoot": 24.0,
+      "point_ambient_red": { "distance": 1.0, "target": "ALL" },
+      "point_ambient_blue": { "distance": 1.0, "target": "ALL" },
+      "point_capture": { "distance": 64.0, "target": "ALL" },
+      "point_contest": { "distance": 32.0, "target": "ALL" },
+      "railgun_shoot": 64.0,
+      "railgun_start_loop": { "distance": 24.0, "target": "ALL" },
+      "rifle_scope_start": { "target": "ONLY_SELF" },
+      "rifle_scope_stop": { "target": "ONLY_SELF" },
+      "rifle_shoot": 32.0,
+      "rocket_launcher_scope_start": { "target": "ONLY_SELF" },
+      "rocket_launcher_scope_stop": { "target": "ONLY_SELF" },
+      "rocket_launcher_shoot": 64.0,
+      "scatter_blaster_shoot": 32.0,
+      "shotgun_shoot": 32.0,
+      "sniper_scope_start": { "target": "ONLY_SELF" },
+      "sniper_scope_stop": { "target": "ONLY_SELF" },
+      "sniper_shoot": 64.0,
+      "tesla_gun_shoot": 32.0,
+      "tesla_gun_start_loop": { "target": "ALL" }
+    }
+  },
+  "dataVars": {
+    "leap_cooldown": { "type": "FLOAT_INTERP", "resetWithoutSuit": true },
+    "armor": { "type": "BYTE", "resetWithoutSuit": true },
+    "armor_timer":  "FLOAT_INTERP"
+  },
+  "alts": {
+    "fisktag:infantry": {
+      "gilly": "hero.fisktag.gilly"
+    },
+    "fisktag:scout": {
+      "gilly": "hero.fisktag.gilly"
+    },
+    "fisktag:assassin": {
+      "gilly": "hero.fisktag.gilly"
+    },
+    "fisktag:tank": {
+      "gilly": "hero.fisktag.gilly"
+    },
+    "fisktag:demolitionist": {
+      "gilly": "hero.fisktag.gilly"
+    },
+    "fisktag:support": {
+      "gilly": "hero.fisktag.gilly"
+    }
+  }
+}
